@@ -662,7 +662,7 @@ left: 40px;
         /* background-color:#2c3e50; */
         color: rgb(54, 95, 54);
         padding: 10px;
-        width: 360px;
+        width: auto;
         height: fit-content;
         margin: 0px;
     }
