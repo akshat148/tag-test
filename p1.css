@@ -1,0 +1,1228 @@
+@keyframes blink {
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    hover{
+        opacity: 1;
+    }
+    
+}
+
+
+body{
+    font-family: sans-serif ;
+    margin: 0px;
+    padding: 0px;
+    background-color: #43727a;
+}
+
+.header{
+    background-color:whitesmoke;
+    color: rgb(54, 95, 54);
+    padding: 10px;
+    width: auto;
+    height: 50px;
+    margin: 0px;
+}
+.header .header-nav {
+    
+     display: flex;
+    justify-content: center; 
+}
+.header .header-nav .header-container {
+        width: 1200px;
+        height: 50px;
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+    }
+.header .header-nav .header-container .un-logo {
+width: 70px;
+height: auto;
+justify-content:flex-start;
+height: fit-content;
+
+
+
+}
+.header .header-nav .header-container .header-logo {
+
+    justify-content:flex-start;
+    color: black;
+    height: 80px;
+    width: 80px;
+    font-size: 25px;
+}
+.header .header-nav .header-container .header-logo2 {
+    justify-content:space-between;
+    color: black;
+    height: 35px;
+    width: 50px;
+    font-size: 10px;
+}
+ 
+.header .header-nav .header-container2 {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    padding: 15px;
+    
+    
+    font-size: 12PX;
+   
+}
+
+.header .header-nav .header-container2 .home {
+    background-color: transparent;
+    border: 0;
+    font-family: gorditaregular;
+    font-size: 20px;
+    transition: transform .2s ease-in-out ;
+}
+.header .header-nav .header-container2 .home a{
+    color: black;
+    text-decoration: none;
+}
+
+.header .header-nav .header-container2 .home:hover {
+    transform:scale(1.2) ;
+}
+.header .header-nav .header-container2 .about {
+    background-color: transparent;
+    border: 0;
+    font-family: gorditaregular;
+    font-size: 20px;
+    transition: transform .2s ease-in-out ;
+}
+.header .header-nav .header-container2 .about a{
+    color: black;
+    text-decoration: none;
+
+}
+
+
+
+.header .header-nav .header-container2 .about:hover {
+    transform:scale(1.2) ;
+}
+
+.header .header-nav .header-container2 .services {
+    background-color: transparent;
+    border: 0;
+    font-family: gorditaregular;
+    font-size: 20px;
+    transition: transform .2s ease-in-out ;
+}
+.header .header-nav .header-container2 .services a{
+    color: black;
+    text-decoration: none;
+}
+
+.header .header-nav .header-container2 .services:hover {
+    transform:scale(1.2) ;
+}
+
+.header .header-nav .header-container2 .career {
+    background-color: transparent;
+    border: 0;
+    font-family: gorditaregular;
+    font-size: 20px;
+    transition: transform .2s ease-in-out ;
+}
+.header .header-nav .header-container2 .career a{
+    color: black;
+    text-decoration: none;
+}
+
+.header .header-nav .header-container2 .career:hover {
+    transform:scale(1.2) ;
+}
+
+.header .header-nav .header-container2 .contact {
+    background-color: transparent;
+    border: 0;
+    font-family: gorditaregular;
+    font-size: 20px;
+    transition: transform .2s ease-in-out ;
+}
+.header .header-nav .header-container2 .contact a{
+    color: black;
+    text-decoration: none;
+}
+
+.header .header-nav .header-container2 .contact:hover {
+    transform:scale(1.2) ;
+}
+
+
+.section-1{
+    width: 1345px;
+    height: auto;
+    justify-content:space-evenly ;
+    padding: 0px;
+}
+.section-1 .sec-1 .section1-logo {
+    width: 1345px;
+    height: auto;
+    position: relative;
+}
+.section-1 .sec-1  .button{
+    position: absolute;
+    top: 90%;
+    left: 61%;
+    width:250px;
+    height: 50px;
+    
+    font-weight: bolder;
+    font-size: 35px;
+    font-style: italic;
+    
+    background-color: #00E091 ;
+    border-radius: 20px;
+    font-feature-settings: "aalt";
+    animation-name: blink ;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    transition: transform .2s ease-in-out ;
+    font-family: gorditaregular;
+     
+
+}
+.section-1 .sec-1  .button a{
+    color: black;
+    text-decoration: none;
+}
+.section-1 .sec-1  .button:hover{
+    
+    animation-play-state: paused;
+   
+    transform:scale(1.2) ;
+    
+    
+}
+
+.section-2{
+    width:1345px ;
+    height: 665px;
+    display: flex;
+}
+.section-2 .back{
+    position: relative;
+    width: 1349px;
+    height:665px ;
+    opacity: .5;
+}
+.section-2 .sec-2{
+    padding: 10px;
+    width: 40%;
+    position: absolute;
+    height: 665px;
+}
+
+.section-2 .sec-2 .intro{
+position:absolute;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+     justify-content: space-between;
+     top: 70px;
+}
+.section-2 .sub-intro{
+  
+    font-size: 20;
+    font-style: italic;
+    font-weight: bold;
+    font-family: gorditaregular;
+    top: 190px;
+    position: absolute;
+
+}
+.section-2 .button-2 {
+    position: absolute;
+    top: 450px;
+    width:400px;
+    height: 50px;
+   left: 15px;
+    font-weight: bolder;
+    font-size: 70px;
+    font-style: italic;
+    background-color: transparent ;
+    border: none;
+    font-feature-settings: "aalt";
+    animation-name: blink ;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    font-family: gorditaregular;
+    transition: transform .2s ease-in-out ;
+    
+}
+.section-2 .button-2 a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.section-2 .button-2:hover {
+    animation-play-state: paused;
+    transform: scale(1.2);
+}
+
+.section-2 .container1{
+width: 500px;
+height: auto;
+position: absolute;
+    left:700px;
+    top: 850px;
+    
+}
+.section-2 .container1 .services{
+    width: 600px;
+    height: 600;
+    position: relative;
+    border-radius: 10px;
+}
+
+.section-2 .container1 .b1{
+    position: absolute;
+    top: 20px;
+    left: 350px;
+    font-size: 22px;
+    background-color: transparent;
+    border: none;
+    font-family: gorditaregular;
+    transition: transform .2s ease-in-out ;
+}
+.section-2 .container1 .b1:hover{
+    transform: scale(1.1);
+}
+
+
+
+.section-2 .container1 .b2{
+    position: absolute;
+    top: 170px;
+    left: 350px;
+
+    font-size: 22px;
+    background-color: transparent;
+    border: none;
+    font-family: gorditaregular;
+    transition: transform .2s ease-in-out ;
+}
+.section-2 .container1 .b2:hover{
+    transform: scale(1.1);
+}
+.section-2 .container1 .b3{
+    position: absolute;
+    top: 330px;
+    left: 350px;
+   
+    font-size: 22px;
+    background-color: transparent;
+    border: none;
+    font-family: gorditaregular;
+    transition: transform .2s ease-in-out ;
+    
+}
+.section-2 .container1 .b3:hover{
+    transform: scale(1.1);
+}
+.section-3{
+width:auto ;
+    height: auto;
+    display: flex;
+    background-color: rgb(248, 63, 63);
+
+}
+.section-3 .sec-3{
+    position: relative;
+    left: 425px;
+
+}
+.section-3 .sec-3 .heading{
+    font-size: 60px;
+    font-family: gorditaregular;
+}
+
+.section-3 .sec-3 .f1{
+    bottom: 20px;
+    position: relative;
+    left: 80px;
+    font-family:gorditaregular ;
+    font-size: medium;
+    font-weight: bold;
+    background-color: aliceblue;
+    width: fit-content;
+   padding: 20px;
+   border-radius: 20px;
+}
+
+input, textarea{
+    position: relative;
+    left: 18px;
+    
+    height: fit-content;
+}
+#name{
+    position: relative;
+    left: 15px;
+}
+#mobile {
+    position: relative;
+   left: 1px;
+}
+#email{
+    position: relative;
+    left: 25px;
+}
+#form1 input[type="submit"]{
+    position: relative;
+    width: 320px;
+    height: 40px;
+    top: 10px;
+    left: 0px;
+    border: none;
+    background-color: #43727a;
+    border-radius: 20px;
+    font-size: larger;
+    font-weight: bold;
+    transition: transform .2s ease-in-out ;
+}
+#form1 input[type="submit"]:hover{
+    transform: scale(1.1);
+    background-color: rgb(252, 116, 37);
+
+}
+.footer{
+    background-color: whitesmoke;
+    width: auto;
+    height: 200px;
+    margin: 0px;
+    padding: 20px;
+    display: flex;
+}
+
+.footer .foot-1{
+    position: relative;
+    width: 200px;
+    display: flex;
+}
+
+.footer .foot-1 .flogo{
+    position: relative;
+    display: flex;
+    height: 50px;
+}
+.footer .foot-1 .footer-logo1{
+    position: relative;
+    height: 50px;
+    bottom: 5px;
+}
+.footer .foot-1 .footer-logo2{
+    position: relative;
+    font-size: 5px;
+    top: 16px;
+    width: 20px;
+
+}
+.footer .foot-3{
+    position: relative;
+font-family: gorditaregular ;
+font-weight: lighter;
+left: 200px;
+}
+.footer .foot-3 .copy-2{
+    position: relative;
+    top: 70px;
+    left: 140px;
+    }
+.footer .foot-3 .copy{
+position: relative;
+top: 50px;
+justify-content: center;
+left: 40px;
+}
+.footer .foot-3 .copy2{
+    position: relative;
+    top: 20px;
+    left: 70px;
+    }
+
+
+
+.footer .foot-2{
+    font-family:gorditaregular ;
+    font-size: 15px;
+    position: relative;
+    bottom: 15px;
+    left: 450px;
+}
+.footer .foot-2 .fbutton{
+    position:relative ;
+    border: none;
+    background-color: transparent;
+}
+.footer .foot-2 .fbutton img{
+    position:relative ;
+    height: 30px;
+    width: 30px;   
+    bottom: 20px;
+    transition: transform .2s ease-in-out ;
+   
+}
+.footer .foot-2 .fbutton img:hover{
+    transform: scale(1.5);
+}
+.footer .foot-2 .fbutton2{
+    position:relative ;
+    border: none;
+    background: transparent;
+}
+.footer .foot-2 .fbutton2 img{
+    position:relative ;
+    height: 30px;
+    width: 30px;   
+    bottom: 20px;
+    transition: transform .2s ease-in-out ;
+}
+.footer .foot-2 .fbutton2 img:hover{
+    transform: scale(1.5);
+}
+.footer .foot-2 .fbutton3{
+    position:relative ;
+    border: none;
+    background: transparent;
+}
+.footer .foot-2 .fbutton3 img{
+    position:relative ;
+    height: 30px;
+    width: 30px;   
+    bottom: 20px;
+    transition: transform .2s ease-in-out ;
+}
+.footer .foot-2 .fbutton3 img:hover{
+    transform: scale(1.5);
+}
+
+
+/* index page ends here */
+/* about page starts */
+
+.p2-section1{
+    width: auto;
+    height: 900px;
+    background: fixed;
+}
+.p2-section1 .background{
+    position: relative;
+    width: 1349px;
+    height:900px ;
+    opacity: 1.5;
+    
+}
+.p2-section1 .heading{
+    position: absolute;
+    top: 50px;
+    left: 400px;
+    font-size: 50px;
+    font-family: Helvetica;
+    color: rgb(59, 30, 30);
+}
+.p2-section1 .sub-heading{
+    position: absolute;
+    top: 220px;
+   left: 170px;
+   width: 1000px;
+   font-family: Helvetica;
+    text-align: center;
+    font-size: x-large;
+    letter-spacing: 2px;
+    color: black;
+    font-weight: bolder;
+    
+}
+.p2-section1 .vision{
+    position: absolute;
+    right: 430px;
+    top: 450px;
+    width: 500px;
+    height: 520px;
+    border-radius: 10px;
+}
+
+/* about page ends here */
+/* career page starts */
+
+
+.p3-section{
+    position: relative;
+    width: 1349px;
+    height: 665px;
+    font-family:Helvetica ;
+}
+.p3-section .career-back{
+    position: relative;
+    width: 1349px;
+    height: 665px;
+}
+.p3-section .join{
+    position: absolute;
+    top: 20px;
+    left: 500px;
+    text-align:left;
+    font-size: 50px;
+    color: aliceblue;
+}
+.p3-section .sub-join{
+    position: absolute;
+    top: 150px;
+    text-align: left;
+    font-size: 30px;
+    color: aliceblue;
+    padding: 10px;
+
+
+}
+.p3-section .para{
+    position: absolute;
+    top: 250px;
+    width: 500px;
+    text-align: left;
+    color: aliceblue;
+    font-size: larger;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+
+}
+.p3-section .f2-career{
+    bottom: 470px;
+    position: relative;
+    left: 800px;
+    font-family:gorditaregular ;
+    font-size: medium;
+    font-weight: bold;
+    background-color: rgb(11, 12, 12);
+    width: 300px;
+   padding: 20px;
+   border-radius: 20px;
+   height:300px ;
+}
+#fname{
+    position: relative;
+    height: 20px;
+    width: 250px;
+    border-radius: 7PX;
+}
+#femail{
+    position: relative;
+    height: 20px;
+    width: 250px;
+    border-radius: 7PX;
+
+}
+#fmobile{
+    position: relative;
+    height: 20px;
+    width: 250px;
+    border-radius: 7PX;
+
+}
+
+#form2 input[type="submit"]{
+    position: relative;
+    width: 260px;
+    height: 30px;
+    right: 50px;
+    left: 20px;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 20px;
+    font-size: larger;
+    font-weight: bold;
+    transition: transform .2s ease-in-out ;
+    top: 40px;
+}
+#form2 input[type="submit"]:hover{
+    transform: scale(1.1);
+    background-color: rgb(252, 116, 37);
+
+}
+
+/* for mobile veiw */
+
+@media screen and (max-width: 700px){
+
+    .header{
+        background-color: #0082e6;
+        /* background-color:#2c3e50; */
+        color: rgb(54, 95, 54);
+        padding: 10px;
+        width: auto;
+        height: fit-content;
+        margin: 0px;
+    }
+    .header .header-nav {
+        
+        
+        justify-content: center; 
+    }
+    .header .header-nav .header-container {
+            width: 180px;
+            height: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content:flex-start;
+            align-items: center;
+            /* left: -100px; */
+        }
+    .header .header-nav .header-container .un-logo {
+    width: 100px;
+    position: relative;
+    height: auto;
+    right: 80px;
+    top: 15px;
+    padding: 5px;
+    justify-content:flex-start;
+    height: fit-content;
+    
+    
+    
+    }
+    .header .header-nav .header-container .header-logo {
+    position: relative;
+        justify-content:flex-start;
+        color: black;
+        height: 80px;
+        width: 80px;
+        font-size: 25px;
+        right: 80px;
+        bottom: 25px;
+        padding: 5px;
+    }
+    .header .header-nav .header-container .header-logo2 {
+        justify-content:space-between;
+        position: relative;
+        /* left: 20px; */
+        color: black;
+        height: 35px;
+        width: 50px;
+        bottom: 55px;
+        padding: 5px;
+        right: 90px;
+        font-size: 10px;
+    }
+     
+    .header .header-nav .header-container2 {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        justify-content: flex-end;
+        /* bottom: px; */
+        /* right: 50px; */
+        left: 70px;
+        width: 180px;
+        padding: 5px;
+        
+        
+        font-size: 12PX;
+       
+    }
+    
+    .header .header-nav .header-container2 .home {
+        background-color: whitesmoke;
+        width: 120px;
+        margin: 10px;
+        border: 0;
+        font-family: gorditaregular;
+        font-size: 20px;
+        transition: transform .2s ease-in-out ;
+    }
+    .header .header-nav .header-container2 .home a{
+        color: rgb(10, 10, 10);
+        text-decoration: none;
+    }
+    
+    .header .header-nav .header-container2 .home:hover {
+        transform:scale(1.2) ;
+    }
+    .header .header-nav .header-container2 .about {
+        background-color: whitesmoke;
+        width: 120px;
+        margin: 10px;
+        border: 0;
+        font-family: gorditaregular;
+        font-size: 20px;
+        transition: transform .2s ease-in-out ;
+    }
+    .header .header-nav .header-container2 .about a{
+        color: black;
+        text-decoration: none;
+    
+    }
+    
+    
+    
+    .header .header-nav .header-container2 .about:hover {
+        transform:scale(1.2) ;
+    }
+    
+    .header .header-nav .header-container2 .services {
+        background-color: white;
+        width: 120px;
+        margin: 10px;
+        border: 0;
+        font-family: gorditaregular;
+        font-size: 20px;
+        transition: transform .2s ease-in-out ;
+    }
+    .header .header-nav .header-container2 .services a{
+        color: black;
+        text-decoration: none;
+    }
+    
+    .header .header-nav .header-container2 .services:hover {
+        transform:scale(1.2) ;
+    }
+    
+    .header .header-nav .header-container2 .career {
+        background-color: white;
+        width: 120px;
+        margin: 10px;
+        border: 0;
+        font-family: gorditaregular;
+        font-size: 20px;
+        transition: transform .2s ease-in-out ;
+    }
+    .header .header-nav .header-container2 .career a{
+        color: black;
+        text-decoration: none;
+    }
+    
+    .header .header-nav .header-container2 .career:hover {
+        transform:scale(1.2) ;
+    }
+    
+    .header .header-nav .header-container2 .contact {
+        background-color: whitesmoke;
+        width: 120px;
+        margin: 10px;
+        border: 0;
+        font-family: gorditaregular;
+        font-size: 20px;
+        transition: transform .2s ease-in-out ;
+    }
+    .header .header-nav .header-container2 .contact a{
+        color: black;
+        text-decoration: none;
+    }
+    
+    .header .header-nav .header-container2 .contact:hover {
+        transform:scale(1.2) ;
+    }
+
+
+.section-1{
+    width: auto;
+    height: auto;
+    justify-content:space-evenly ;
+    padding: 0px;
+}
+.section-1 .sec-1 .section1-logo {
+    width: 510px;
+    height: auto;
+    position: relative;
+}
+.section-1 .sec-1  .button{
+    position: absolute;
+    top: 450px;
+    left: 60%;
+    width:100px;
+    height: 20px;
+    
+    font-weight: bolder;
+    font-size: 10px;
+    font-style: italic;
+    
+    background-color: #00E091 ;
+    border-radius: 20px;
+    font-feature-settings: "aalt";
+    animation-name: blink ;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    transition: transform .2s ease-in-out ;
+    font-family: gorditaregular;
+     
+
+}
+.section-1 .sec-1  .button a{
+    color: black;
+    text-decoration: none;
+}
+.section-1 .sec-1  .button:hover{
+    
+    animation-play-state: paused;
+   
+    transform:scale(1.2) ;
+    
+    
+}
+
+.section-2{
+    width:auto ;
+    height: 705px;
+    display: flex;
+}
+.section-2 .back{
+    position: relative;
+    width: 510px;
+    height:705px ;
+    opacity: .5;
+}
+.section-2 .sec-2{
+    position: relative;
+    bottom: 0px;top: 380px;
+    padding: 10px;
+    width: 490px;
+    position: absolute;
+    height: 300px;
+}
+
+.section-2 .sec-2 .intro{
+position:absolute;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+     justify-content: space-between;
+     top: 140px;
+     left: 10px;
+}
+.section-2 .sub-intro{
+  
+    font-size: 20px;
+    width: 490px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: gorditaregular;
+    top: 240px;
+    position: absolute;
+
+}
+.section-2 .button-2 {
+    position: absolute;
+    top: 450px;
+    width:330px;
+    height: 50px;
+    align-items: center;
+   left: 85px;
+    font-weight: bolder;
+    font-size: 45px;
+    font-style: italic;
+    background-color: transparent ;
+    border: none;
+    font-feature-settings: "aalt";
+    animation-name: blink ;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    font-family: gorditaregular;
+    transition: transform .2s ease-in-out ;
+    
+}
+.section-2 .button-2 a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.section-2 .button-2:hover {
+    animation-play-state: paused;
+    transform: scale(1.2);
+}
+
+.section-2 .container1{
+width: 330px;
+height: auto;
+position: absolute;
+    left:85px;
+    padding: 5px;
+    top: 900px;
+    
+}
+.section-2 .container1 .services{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    border-radius: 10px;
+    right: 40px;
+}
+
+.section-2 .container1 .b1{
+    position: absolute;
+    top: 30px;
+    left: 150px;
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+    font-family: gorditaregular;
+    transition: transform .2s ease-in-out ;
+}
+.section-2 .container1 .b1:hover{
+    transform: scale(1.1);
+}
+
+
+
+.section-2 .container1 .b2{
+    position: absolute;
+    top: 140px;
+    left: 150px;
+
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+    font-family: gorditaregular;
+    transition: transform .2s ease-in-out ;
+}
+.section-2 .container1 .b2:hover{
+    transform: scale(1.1);
+}
+.section-2 .container1 .b3{
+    position: absolute;
+    top: 240px;
+    left: 190px;
+   width: 50px;
+   text-align: center;
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+    font-family: gorditaregular;
+    transition: transform .2s ease-in-out ;
+    
+}
+.section-2 .container1 .b3:hover{
+    transform: scale(1.1);
+}
+.section-3{
+    width:auto ;
+        height: auto;
+        display: flex;
+        background-color: rgb(248, 63, 63);
+    
+    }
+    .section-3 .sec-3{
+        position: relative;
+        left: 0px;
+    
+    }
+    .section-3 .sec-3 .heading{
+        position: relative;
+        left: 100px;
+        font-size: 30px;
+        font-family: gorditaregular;
+    }
+    
+    .section-3 .sec-3 .f1{
+        bottom: 20px;
+        position: relative;
+        left: 65px;
+        
+        font-family:gorditaregular ;
+        font-size: medium;
+        font-weight: bold;
+        background-color: aliceblue;
+        width: 290px;
+       padding: 20px;
+       border-radius: 20px;
+    }
+    
+    input, textarea{
+        position: relative;
+        left: 18px;
+        
+        height: fit-content;
+    }
+    #name{
+        position: relative;
+        left: 15px;
+    }
+    #mobile {
+        position: relative;
+       left: 1px;
+    }
+    #email{
+        position: relative;
+        left: 25px;
+    }
+    #form1 input[type="submit"]{
+        position: relative;
+        width: 320px;
+        height: 40px;
+        top: 10px;
+        left: -15px;
+        border: none;
+        background-color: #43727a;
+        border-radius: 20px;
+        font-size: larger;
+        font-weight: bold;
+        transition: transform .2s ease-in-out ;
+    }
+    #form1 input[type="submit"]:hover{
+        transform: scale(1.1);
+        background-color: rgb(252, 116, 37);
+    
+    }
+    .footer{
+        background-color: whitesmoke;
+        width: auto;
+        height: 150px;
+        margin: 0px;
+        padding: 20px;
+        display: flex;
+    }
+    
+    .footer .foot-1{
+        position: relative;
+        width: fit-content;
+        display: flex;
+        top: 0px;
+    }
+    
+    .footer .foot-1 .flogo{
+        position: relative;
+        display: flex;
+        height: 50px;
+    }
+    .footer .foot-1 .footer-logo1{
+        position: relative;
+        height: 50px;
+        bottom: 5px;
+    }
+    .footer .foot-1 .footer-logo2{
+        position: relative;
+        font-size: 5px;
+        top: 16px;
+        width: 20px;
+    
+    }
+    .footer .foot-3{
+        position: absolute;
+    font-family: gorditaregular ;
+    font-weight: lighter;
+    
+    right: 250px;
+    top: 1630px;
+    width: 200px;
+    left: 130px;
+    }
+    .footer .foot-3 .fhead{
+     position: relative;
+     right: 115px;
+     font-size: 12px;
+     width: 200px;
+     height: fit-content;
+    }
+
+    .footer .foot-3 .copy-2{
+        position: relative;
+        font-size: 15px;
+        top: 0px;
+        left: -110px;
+        width: 150px;
+        }
+    .footer .foot-3 .copy{
+    position: relative;
+    font-size: 10px;
+    top: -10px;
+    justify-content: center;
+    left: -110px;
+    width: 220px;
+    }
+    .footer .foot-3 .copy2{
+        position: relative;
+        top: 20px;
+        left: -50px;
+        font-size: 5px;
+        width: auto;
+        }
+    
+    
+    
+    .footer .foot-2{
+        font-family:gorditaregular ;
+        font-size: 5px;
+        position: relative;
+        bottom: -10px;
+        left: 250px;
+        width: 100px;
+    }
+    .footer .foot-2 .follow{
+        width: 70px;
+        left:150px ;
+    }
+
+    .footer .foot-2 .fbutton{
+        position:relative ;
+        border: none;
+        background-color: transparent;
+    }
+    .footer .foot-2 .fbutton img{
+        position:relative ;
+        height: 20px;
+        width: 20px;   
+        bottom: 5px;
+        right: 20px;
+        transition: transform .2s ease-in-out ;
+       
+    }
+    .footer .foot-2 .fbutton img:hover{
+        transform: scale(1.5);
+    }
+    .footer .foot-2 .fbutton2{
+        position:relative ;
+        border: none;
+        background: transparent;
+    }
+    .footer .foot-2 .fbutton2 img{
+        position:relative ;
+        height: 20px;
+        width: 20px;   
+        bottom: 5px;
+        right: 10px;
+
+        transition: transform .2s ease-in-out ;
+    }
+    .footer .foot-2 .fbutton2 img:hover{
+        transform: scale(1.5);
+    }
+    .footer .foot-2 .fbutton3{
+        position:relative ;
+        border: none;
+        background: transparent;
+    }
+    .footer .foot-2 .fbutton3 img{
+        position:relative ;
+        height: 20px;
+        width: 20px;   
+        bottom: 5px;
+        right: 30px;
+
+        transition: transform .2s ease-in-out ;
+    }
+    .footer .foot-2 .fbutton3 img:hover{
+        transform: scale(1.5);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
